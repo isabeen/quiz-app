@@ -16,7 +16,7 @@ h1 {
 .navbar {
   background-color: rgb(50, 105, 105);
   overflow: hidden;
-  position: fixed;
+  position: sticky;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -58,14 +58,37 @@ p {
   font-family: Geneva, Verdana, sans-serif;
 }
 
+.answers {
+  background-color: rgba(169, 225, 95, 0.656);
+  padding: 50px;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: Geneva, Verdana, sans-serif;
+}
+
 .show-answer {
-  background-color: rgb(50, 105, 105);
+  background-color: rgb(35, 78, 78);
   color: rgb(215, 198, 198);
   border: none;
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0px 0px 2px 2px rgb(195, 193, 193);
   font-size: 17px;
+}
+
+.hide-answer {
+  background-color: rgba(79, 170, 97, 0.792);
+  color: rgb(87, 74, 74);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 2px 2px rgb(87, 74, 74);
+  font-size: 17px;
+}
+
+.hide-answer:hover {
+  background-color: rgb(167, 180, 174);
 }
 
 .show-answer:hover {
@@ -98,4 +121,11 @@ section .fa-bookmark {
 
 .tag:hover {
   background-color: black;
+}
+
+.ans {
+  font-style: italic;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
 }
