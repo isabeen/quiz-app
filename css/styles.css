@@ -1,6 +1,10 @@
+.border-box {
+  box-sizing: border-box;
+}
+
 header {
   background-color: rgb(50, 105, 105);
-  padding: 10px;
+  padding: 0.5rem;
 }
 
 h1 {
@@ -37,5 +41,31 @@ h1 {
 }
 
 .active {
-  background-color: hsl(186, 29%, 47%);
+  background-color: rgb(52, 56, 56);
+}
+
+p {
+  color: #39433e;
+}
+.questions {
+  background-color: rgba(140, 168, 161, 0.656);
+  padding: 50px;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: Geneva, Verdana, sans-serif;
+}
+
+.show-answer {
+  background-color: rgb(50, 105, 105);
+  color: rgb(215, 198, 198);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 2px 2px rgb(195, 193, 193);
+  font-size: 17px;
+}
+
+.show-answer:hover {
+  background-color: rgb(52, 56, 56);
 }
