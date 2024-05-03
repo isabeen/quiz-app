@@ -35,3 +35,7 @@ h1 {
   background-color: #6d89aa;
   color: rgb(46, 50, 50);
 }
+
+.active {
+  background-color: hsl(186, 29%, 47%);
+}
