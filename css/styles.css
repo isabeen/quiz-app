@@ -46,7 +46,9 @@ h1 {
 
 p {
   color: #39433e;
+  padding-bottom: 15px;
 }
+
 .questions {
   background-color: rgba(140, 168, 161, 0.656);
   padding: 50px;
@@ -68,4 +70,32 @@ p {
 
 .show-answer:hover {
   background-color: rgb(52, 56, 56);
+}
+
+section .fa-bookmark {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.hashtags {
+  margin-top: 20px;
+  display: block;
+  position: relative;
+  top: 30px;
+  right: 25px;
+}
+
+.tag {
+  background-color: rgb(78, 92, 92);
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.tag:hover {
+  background-color: black;
 }
